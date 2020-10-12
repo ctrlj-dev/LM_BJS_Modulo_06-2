@@ -1,0 +1,27 @@
+/*
+Font: 		Aux Mono
+Style: 		Regular
+URL: 		https://www.youworkforthem.com/font/T12298/aux-mono
+Foundry: 	Radinal Riki Mutaqin
+Foundry: 	https://www.youworkforthem.com/designer/1230/radinal-riki-mutaqin
+Copyright:	Copyright (c) 2020 by ATK® Studio. All rights reserved.
+Version: 	17
+Created:	May 13, 2020
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'AuxMono-Regular';
+	src: url('aux-mono-regular.eot');
+	src: url('aux-mono-regular.eot?#iefix') format('embedded-opentype'),
+             url('aux-mono-regular.woff2') format('woff2'),
+	     url('aux-mono-regular.woff') format('woff'),
+	     url('aux-mono-regular.ttf') format('truetype'),
+	     url('aux-mono-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

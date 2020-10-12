@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Modulo 6: Laboratorio 2</title>
+</head>
+
+<body>
+    <div class="container">
+        
+        <h1>Enigma</h1>
+        <div class="row">
+            <div class="col-12"><textarea id="decrypt"></textarea></div>
+            <div class="col-12"><button onclick=transformText(text); id="encrypt-button">Encrypt</button></div>
+        </div>
+        <div class="row">
+            <div class="col-12"><textarea id="encrypt"></textarea></div>
+            <div class="col-12"><button onclick=transformEncryptText(text); id="decrypt-button">Decrypt</button></div>
+        </div>
+    </div>
+    <canvas id="matrix"></canvas>
+    <script src="js/app.js"></script>
+    <script src="js/matrix.js"></script>
+</body>
+
+</html>
